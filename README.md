@@ -86,15 +86,16 @@ DAA-Practicals/
 
 ## 🧪 How to Run Programs
 
-Requirements:
-- Python 3.x  or newer version installed
+## Requirements:
+- Python 3.x or newer version installed
 
-Run any experiment by navigating inside its folder and executing:
+### Steps to Run:
+1. Navigate to the specific experiment folder :
+   cd Experiment 01 - BinarySearch
+2. Run the Python program :
+   python app.py
 
-```bash
-python app.py
-
-###🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 Mastered major algorithmic techniques:
 
@@ -114,7 +115,7 @@ Mastered major algorithmic techniques:
 
 
 
-### 👤 Author
+## 👤 Author
 
 Name: Sakshi Shahaji Chougale
 Roll No : 25143071   
