@@ -85,7 +85,6 @@ DAA-Practicals/
 └── README.md <-- (this file)
 
 ## 🧪 How to Run Programs
-
 ## Requirements:
 - Python 3.x or newer version installed
 
@@ -117,10 +116,10 @@ Mastered major algorithmic techniques:
 
 ## 👤 Author
 
-Name: Sakshi Shahaji Chougale
-Roll No : 25143071   
-Class : SYIT(Batch-I4)
-Course: Information Technology
-Subject: Design and Analysis of Algorithms
+- Name: Sakshi Shahaji Chougale
+- Roll No : 25143071   
+- Class : SYIT(Batch-I4)
+- Course: Information Technology
+- Subject: Design and Analysis of Algorithms
 
 
