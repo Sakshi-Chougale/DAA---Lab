@@ -83,12 +83,12 @@ At each step, always expand the unvisited location with the current smallest cum
 ## 📂 Repository Structure
 
 DAA-Practicals/
-│── Experiment01_BinarySearch/
-│── Experiment02_Recursion/
-│── Experiment03_Sorting/
-│── Experiment04_GreedyKnapsack/
-│── Experiment05_NQueens/
-│── Experiment06_DPKnapsack/
+│── Experiment 01-BinarySearch/
+│── Experiment 02 - Sorting/
+│── Experiment 03 - Knapsack/
+│── Experiment 04 - OptimalMerge/
+│── Experiment 05 - MST/
+│── Experiment 06 - Dijkstra/
 └── README.md <-- (this file)
 
 ## 🧪 How to Run Programs
