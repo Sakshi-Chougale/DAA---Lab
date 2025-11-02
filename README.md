@@ -15,22 +15,11 @@ Each experiment includes problem definition, algorithm explanation, Python imple
 - Complexity:  
   - Time: `O(log n)`  
   - Space: `O(1)`  
-- Folder: `/Experiment01_BinarySearch`
+- Folder: `/Experiment 01-Binary Search`
 
 ---
 
-### 2️⃣ Recursion – Factorial & Fibonacci
-- Problem: Demonstrate recursive function behavior  
-- Algorithm Type: Recursive  
-- Key Concept: Stack frames, base & recursive cases  
-- Complexity:  
-  - Factorial: Time `O(n)` | Space `O(n)`  
-  - Fibonacci (naive): Time `O(2^n)` | Space `O(n)`  
-- Folder: `/Experiment02_Recursion`
-
----
-
-### 3️⃣ Quick Sort & Merge Sort – Student Marks Sorter
+### 2️⃣ Quick Sort & Merge Sort – Student Marks Sorter
 - Problem: Sort student records by marks  
 - Approach:  
   - **Quick Sort** (in-place, divide & conquer)  
@@ -38,38 +27,56 @@ Each experiment includes problem definition, algorithm explanation, Python imple
 - Complexity:  
   - Quick Sort: Best/Avg `O(n log n)`, Worst `O(n²)`, Space `O(log n)`  
   - Merge Sort: Always `O(n log n)`, Space `O(n)`  
-- Folder: `/Experiment03_Sorting`
+- Folder: `/Experiment 02 - Sorting`
 
 ---
 
-### 4️⃣ Greedy Method – Project Resource Allocation (Knapsack)
+### 3️⃣ Greedy Method – Project Resource Allocation (Knapsack)
 - Problem: Maximize profit with limited project resources  
 - Algorithm: Greedy Fractional-Knapsack approach  
 - Decision Rule: Profit-to-Resource ratio  
 - Complexity:  
   - Time: `O(n log n)`  
-  - Space: `O(n)`  
-- Folder: `/Experiment04_GreedyKnapsack`
+  - Space: `O(n)`    
+- Folder: `/Experiment 03 - Knapsack`
 
 ---
 
-### 5️⃣ Backtracking – N-Queens Solver
-- Problem: Place N queens on a chessboard without attack  
-- Algorithm Type: Backtracking  
-- Key Concepts: Safe position check, row-by-row recursion  
-- Complexity: Time `O(N!)`, Space `O(N)`  
-- Folder: `/Experiment05_NQueens`
+### 4️⃣ Optimal Merge Pattern - File Compression system
+- Problem : Minimize total cost when merging multiple files into a single file during compression.
+- Algorithm : Greedy — Optimal Merge Pattern using a Min-Heap.
+- Decision Rule : Always merge the two smallest files first (lowest sizes → minimum incremental merge cost).
+- Complexity:
+- Time: O(n log n) due to heap operations for repeated extract-min and insert
+- Space: O(n) for heap storage
+- Folder: `/Experiment 04 - OptimalMerge`
 
 ---
 
-### 6️⃣ Dynamic Programming – 0/1 Knapsack
-- Problem: Maximize profit with weight constraints  
-- Difference vs Greedy: Considers optimal substructure, not ratio rule  
-- Technique: DP Table  
-- Complexity:  
-  - Time: `O(nW)`  
-  - Space: `O(nW)`  
-- Folder: `/Experiment06_DPKnapsack`
+### 5️⃣ MST – Campus Network Design System
+- Problem : Connect all campus buildings with network cables at the minimum total cost while ensuring every building is reachable.
+- Algorithm : Minimum Cost Spanning Tree using Prim's and Kruskal's algorithms.
+- Decision Rule:
+- Prim's : Always expand the network by choosing the lowest-weight edge from visited to unvisited nodes.
+- Kruskal's: Always add the smallest-weight edge that does not create a cycle (using union-find to check).
+- Complexity:
+  - Time:
+     - Prim’s (array implementation): O(V^2)
+     - Kruskal’s: O(E log E) for sorting edges
+  - Space: O(V + E) for adjacency / edge list and union-find structures 
+- Folder: `/Experiment 05 - MST`
+
+---
+
+### 6️⃣ Dijkstra Algorithm - City Navigation System
+- Problem : Find the most efficient routes between city locations based on either minimum distance or minimum travel time.
+- Algorithm : Dijkstra’s Single-Source Shortest Path algorithm using a min-priority queue (min-heap).
+- Decision Rule:
+At each step, always expand the unvisited location with the current smallest cumulative cost (distance or time), updating neighbors only if a shorter route is found.
+- Complexity:
+   - Time: O((V + E) log V) using a heap
+   - Space: O(V + E) for adjacency list, distance array, and priority queue
+- Folder: `/Experiment 06 - Dijkstra`
 
 ---
 
